@@ -1,0 +1,38 @@
+.inlineblock{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 73%;
+    padding: 1%;
+}
+ul{
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    height: 600px;
+    width: 500px;
+    padding: 25px;
+    align-items: center;
+}
+footer {
+    background-color: blue;
+    padding: 5%;
+    text-align: center;
+}
+.flexContainer {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+}
+.myProjects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3;
+}
